@@ -1,12 +1,14 @@
 import java.util.*;
-class Hello{
+class SUMOF{
 
     public static void main(String[] args)
     {	Scanner sc=new Scanner(System.in);
         int a=sc.nextInt();
-    	for(int i=0;i<a;i++)
+        int sum=0;
+    	for(int i=0;i<=a;i++)
     	{
-    	    System.out.println("Hell0");
+    	    sum=sum+i;
     	}
+    	System.out.println(sum);
     }
 }
